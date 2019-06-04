@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authentify</title>
+</head>
+<body>
+	<h1><%= title %></h1>
+	<h2><%= topic %></h2>
+	<h3><%= status %>
+		<% if (status==0){ %>
+		Boo Hoo
+		<%} else if (status==1){%>
+		Whoopie
+		<%} else{%>
+		Hahaha
+		<%}%>
+		<% var x%>
+		<%= x=fruits.length%>
+		<% for (i=0;i<x;i++){ %>
+
+		<h4> My fruit using for=<%=fruits[i]%></h4>
+	<%}%>
+	</h3>
+
+
+</body>
+</html>
